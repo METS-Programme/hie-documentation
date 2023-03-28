@@ -388,6 +388,16 @@
                         "description": "Location where client has been referred to for HIV Care",
                         "type": "string",
                         "default": "text"
+                      },
+                      "recency_vl_result": {
+                        "description": "Rececny Viral Load Result for client",
+                        "type": "string",
+                        "default": "text"
+                      },
+                      "is_recency_vl_undetectable": {
+                        "description": "Recency viral load result for VL undetectable client",
+                        "type": "string",
+                        "default": "text"
                       }
                     }
                   }
