@@ -388,6 +388,24 @@
                         "description": "Location where client has been referred to for HIV Care",
                         "type": "string",
                         "default": "text"
+                      },
+                      "recency_vl_result": {
+                        "description": "Recency Viral Load Result",
+                        "type": "integer",
+                        "default": "integer"
+                      },
+                      "is_recency_vl_undetectable": {
+                        "description": "whether the Viral Load was undetectable",
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
+                      },
+                      "recency_sample_id": {
+                        "description": "Recency sample ID. This should be the same number used in Recency Barcode Id",
+                        "type": "string",
+                        "default": "text"
                       }
                     }
                   }
