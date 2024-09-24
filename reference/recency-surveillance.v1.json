@@ -364,7 +364,7 @@
                           "Concordant Positive"
                         ]
                       },
-                      "presumtive_tb": {
+                      "presumptive_tb": {
                         "description": "Client has presumtive TB",
                         "type": "string",
                         "enum": [
