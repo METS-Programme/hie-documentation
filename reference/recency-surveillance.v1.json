@@ -80,6 +80,11 @@
                         "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
+                      "health_unit_village": {
+                        "description": "Name of the village of the client’s address. If not available, name of village the health facility is located",
+                        "type": "string",
+                        "default": "text"
+                      },
                       "health_unit_name": {
                         "description": "Name of the parish of the client’s address. If not available, name of parish the health facility is located",
                         "type": "string",
@@ -360,7 +365,7 @@
                         ]
                       },
                       "presumtive_tb": {
-                        "description": "Client has presumtive TB",
+                        "description": "Client has presumptive TB",
                         "type": "string",
                         "enum": [
                           "No",
@@ -386,6 +391,24 @@
                       },
                       "referred_location": {
                         "description": "Location where client has been referred to for HIV Care",
+                        "type": "string",
+                        "default": "text"
+                      },
+                      "recency_vl_result": {
+                        "description": "Recency Viral Load Result",
+                        "type": "integer",
+                        "default": "integer"
+                      },
+                      "is_recency_vl_undetectable": {
+                        "description": "whether the Viral Load was undetectable",
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
+                      },
+                      "recency_sample_id": {
+                        "description": "Recency sample ID. This should be the same number used in Recency Barcode Id",
                         "type": "string",
                         "default": "text"
                       }
